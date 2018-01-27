@@ -6,4 +6,4 @@ Se hará una aproximación a los conceptos de iniciación a la lengua de signos.
 
 ![Lengua de Signos](/Ludoteca-tolon-tolon/assets/images/LSE.jpg)
 
-![Lengua de Signos](/Ludoteca-tolon-tolon/assets/images/lorena.jpg)
+![Lengua de Signos](/Ludoteca-tolon-tolon/assets/images/lorena.png)
