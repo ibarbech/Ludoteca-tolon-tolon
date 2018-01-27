@@ -21,10 +21,10 @@ p {
 }
 
 a {
-  color: #087808;
+  color: #303030;
 }
 a:hover {
-  color: #004500;
+  color: #000000;
 }
 
 header {
@@ -486,6 +486,13 @@ footer a:hover {
   width: 100%;
   color: #fff;
   overflow: hidden;
+}
+.tab {
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px;
+}
+.tab .tab-content {
+  font-size: 15px;
 }
 input {
   position: absolute;
