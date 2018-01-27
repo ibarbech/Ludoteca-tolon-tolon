@@ -1,1 +1,1 @@
-![Cronograma](/assets/images/Cronograma.png)
+![Cronograma](/Ludoteca-tolon-tolon/assets/images/Cronograma.png)

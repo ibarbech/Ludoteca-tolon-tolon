@@ -8,4 +8,4 @@ Se llevarán a cabo charlas sobre dicho tema, se confeccionarán murales que col
  habitaciones, y lectura de cuentos tradicionales: consistirá en leer varios cuentos tradicionales como caperucita roja, Blancanieves, Cenicienta... y
  reflexionar sobre los comportamientos sexistas que encontramos en estos libros.
 
- ![igualdad de género](/assets/images/igualdad_de_genero.png)
+ ![igualdad de género](/Ludoteca-tolon-tolon/assets/images/igualdad_de_genero.png)

@@ -1,1 +1,1 @@
-![horario](/assets/images/horario.png)
+![horario](/Ludoteca-tolon-tolon/assets/images/horario.png)

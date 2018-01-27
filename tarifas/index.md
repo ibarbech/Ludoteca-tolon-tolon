@@ -1,2 +1,2 @@
 
-![tarifas](/assets/images/tarifas.png)
+![tarifas](/Ludoteca-tolon-tolon/assets/images/tarifas.png)

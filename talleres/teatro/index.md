@@ -4,4 +4,4 @@
 
 Llevado a cabo a partir de marionetas que se harán previamente.
 
-![teatro](/assets/images/teatro.png)
+![teatro](/Ludoteca-tolon-tolon/assets/images/teatro.png)

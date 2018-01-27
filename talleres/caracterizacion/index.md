@@ -6,5 +6,5 @@
 En los cuales se maquillarán con pinturas hipoalergénicas a los niños haciendo animales, dibujos, insectos, etc...
 
 
-![caracterizacion](/assets/images/caracterizacion.jpg)
-![caracterizacion](/assets/images/caracterizacion2.jpg)
+![caracterizacion](/Ludoteca-tolon-tolon/assets/images/caracterizacion.jpg)
+![caracterizacion](/Ludoteca-tolon-tolon/assets/images/caracterizacion2.jpg)
