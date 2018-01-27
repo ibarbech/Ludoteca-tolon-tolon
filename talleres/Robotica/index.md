@@ -6,3 +6,4 @@ Permitirá al niño/a a aprender a diseñar, programar, construir, innovar, prob
 
 
 ![Robotica](/Ludoteca-tolon-tolon/assets/images/Robotica.jpg)
+![Robotica](/Ludoteca-tolon-tolon/assets/images/Robotica1.jpg)
