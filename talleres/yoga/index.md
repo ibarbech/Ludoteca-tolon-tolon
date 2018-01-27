@@ -6,4 +6,5 @@ Donde los niños/as experimentarán distintas formas de autocontrol de sus emoci
 
 
 ![yoga](/Ludoteca-tolon-tolon/assets/images/yoga.jpg)
+
 ![yoga](/Ludoteca-tolon-tolon/assets/images/yoga1.jpg)
