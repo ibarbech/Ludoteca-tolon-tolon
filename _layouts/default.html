@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "es-ES" }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -12,16 +12,15 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>RoboComp | A simple robotics framework.</title>
+    <title>Ludoteca Tolón Tolón</title>
   </head>
 
   <body>
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <img alt="RoboComp Logo" src="{{ '/' | absolute_url }}assets/images/logo-apaisado.png" width="360px">
+          <img alt="Ludoteca Tolon Tolon Logo" src="{{ '/' | absolute_url }}assets/images/logo-apaisado.png" width="360px">
         </a>
-        <h2>A simple robotics framework.</h2>
       </div>
     </header>
 
@@ -34,63 +33,69 @@
         <aside id="sidebar">
 			<div class="tab">
 				<label for="tab-one">
-					<a href="/web">Home</a>
+					<a href="/">Inicio</a>
+				</label>
+			</div>
+      <div class="tab">
+				<label for="tab-one">
+					<a href="/horario/index">Horario</a>
+				</label>
+			</div>
+      <div class="tab">
+				<label for="tab-one">
+					<a href="/tarifas/index">Tarifas</a>
 				</label>
 			</div>
 			<div class="tab">
 				<input id="tab-three" type="checkbox" name="tabs">
-				<label for="tab-three">GSoC</label>
+				<label for="tab-three">Talleres</label>
 				<div class="tab-content">
-					<br>
-					<span class="font-bold margin-left10px">2018</span><br>
-					<a class="margin-left20px" href="/web/blog/gsoc/ideas2018">Ideas</a>
+          <br>
+					<a class="margin-left20px" href="/talleres/Cronograma/">Cronograma de los talleres</a><br>
 					<br><br>
-					<span class="font-bold margin-left10px">2017</span><br>
-					<a class="margin-left20px" href="/web/blog/gsoc/ideas2017">Ideas</a><br>
-					<a class="margin-left20px" href="/web/gsoc/2017/index">Posts</a>
+					<a class="margin-left20px" href="/talleres/caracterizacion/">Caracterización</a><br>
 					<br><br>
-					<span class="font-bold margin-left10px">2016</span><br>
-					<a class="margin-left20px" href="/web/blog/gsoc/ideas2016">Ideas</a><br>
-					<a class="margin-left20px" href="/web/gsoc/2016/index">Posts</a>
+					<a class="margin-left20px" href="/talleres/experimentos_quimicos">Experimentos Químicos</a><br>
 					<br><br>
-					<span class="font-bold margin-left10px">2015</span><br>
-					<a class="margin-left20px" href="/web/blog/gsoc/ideas2015">Ideas</a><br>
-					<a class="margin-left20px" href="/web/gsoc/2015/index">Posts</a>
+					<a class="margin-left20px" href="/talleres/igualdad_de_genero">Igualdad de Género</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/lego">Lego</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/LSE">Lengua de Signos</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/manualidades">Manualidades</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/musicoterapia">Musicoterapia</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/otras_culturas_y_tradiciones">Otras culturas y tradiciones</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/risoterapia">Risoterapia</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/Robotica">Robotica</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/teatro">Teatro</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/talleres/yoga">Yoga</a><br>
 					<br>
 				</div>
 			</div>
+			<!-- <div class="tab">
+				<label for="tab-one">
+					<a href="/projects/index">Projects</a>
+				</label>
+			</div> -->
 			<div class="tab">
 				<label for="tab-one">
-					<a href="/web/projects/index">Projects</a>
+					<a href="/contact/index">Contacto</a>
 				</label>
 			</div>
 			<div class="tab">
 				<label for="tab-one">
-					<a href="/web/contact/index">Contact</a>
-				</label>
-			</div>
-			<div class="tab">
-				<label for="tab-one">
-					<a href="/web/install/index">Install</a>
-				</label>
-			</div>
-			<div class="tab">
-				<label for="tab-one">
-					<a href="http://robocomp.readthedocs.io/en/highlyunstable">Documentation</a>
-				</label>
-			</div>
-			<div class="tab">
-				<label for="tab-one">
-					<a href="https://github.com/robocomp">GitHub project</a>
-				</label>
-			</div>
-			<div class="tab">
-				<label for="tab-one">
-					<a href="/web/about/index">About</a>
+					<a href="/about/index">Sobre nosotros</a>
 				</label>
 			</div>
         </aside>
-      </div>	
+      </div>
     </div>
 
     {% if site.google_analytics %}

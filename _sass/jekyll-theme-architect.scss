@@ -26,7 +26,11 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #9C9C9C;
+  background: #c9de96;
+  background: -moz-linear-gradient(top, #c9de96 0%, #8ab66b 44%, #398235 100%);
+  background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+  background: linear-gradient(to bottom, #c9de96 0%,#8ab66b 44%,#398235 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 );
   border-bottom: solid 2px #000;
 }
 
