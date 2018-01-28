@@ -1,1 +1,3 @@
-![horario](/Ludoteca-tolon-tolon/assets/images/horario.PNG=centerme)
+<p align="center">
+  ![horario](/Ludoteca-tolon-tolon/assets/images/horario.PNG)
+</p>
