@@ -1,3 +1,1 @@
-<div style="text-align:center">
-  ![horario](/Ludoteca-tolon-tolon/assets/images/horario.PNG)
-</div>
+![horario](/Ludoteca-tolon-tolon/assets/images/horario.PNG =250x)
