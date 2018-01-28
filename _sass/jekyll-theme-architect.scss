@@ -567,4 +567,9 @@ input[type=radio]:checked + label::after {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
-img[alt=horario]{ width: 200px; }
+img[alt=horario]{ 
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
