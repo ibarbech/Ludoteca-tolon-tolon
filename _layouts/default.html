@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "es-ES" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Ludoteca Tolón Tolón</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | absolute_url }}">
+          <img alt="Ludoteca Tolon Tolon Logo" src="{{ '/' | absolute_url }}assets/images/logo-apaisado.png" >
+        </a>
+        <h2>¡¡Visita el mundo mágico de la ludoteca Tolón Tolón y te aseguramos que volverás!!</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          {{ content }}
+        </section>
+
+        <aside id="sidebar">
+			<div class="tab">
+				<label for="tab-one">
+					<a href="/Ludoteca-tolon-tolon">Inicio</a>
+				</label>
+			</div>
+      <div class="tab">
+				<label for="tab-one">
+					<a href="/Ludoteca-tolon-tolon/horario/index">Horario</a>
+				</label>
+			</div>
+      <div class="tab">
+				<label for="tab-one">
+					<a href="/Ludoteca-tolon-tolon/tarifas/index">Tarifas</a>
+				</label>
+			</div>
+      <div class="tab">
+				<label for="tab-one">
+					<a href="/Ludoteca-tolon-tolon/servicios/index">Servicios que ofrecemos</a>
+				</label>
+			</div>
+			<div class="tab">
+				<input id="tab-three" type="checkbox" name="tabs">
+				<label for="tab-three">Talleres</label>
+				<div class="tab-content">
+          <br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/Cronograma/">Cronograma de los talleres</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/caracterizacion/">Caracterización</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/experimentos_quimicos">Experimentos Químicos</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/igualdad_de_genero">Igualdad de Género</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/lego">Lego</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/LSE">Lengua de Signos</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/manualidades">Manualidades</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/musicoterapia">Musicoterapia</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/otras_culturas_y_tradiciones">Otras culturas y tradiciones</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/risoterapia">Risoterapia</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/Robotica">Robotica</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/teatro">Teatro</a><br>
+					<br><br>
+					<a class="margin-left20px" href="/Ludoteca-tolon-tolon/talleres/yoga">Yoga</a><br>
+					<br>
+				</div>
+			</div>
+			<!-- <div class="tab">
+				<label for="tab-one">
+					<a href="/projects/index">Projects</a>
+				</label>
+			</div> -->
+			<div class="tab">
+				<label for="tab-one">
+					<a href="/Ludoteca-tolon-tolon/contact/index">Contacto</a>
+				</label>
+			</div>
+			<div class="tab">
+				<label for="tab-one">
+					<a href="/Ludoteca-tolon-tolon/about/index">¿Quiénes somos?</a>
+				</label>
+			</div>
+        </aside>
+      </div>
+    </div>
+
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
